@@ -20,6 +20,8 @@ function! s:defx_mappings() abort
   nnoremap <silent><buffer><expr> l     <SID>defx_toggle_tree()                    " 打开或者关闭文件夹，文件
   nnoremap <silent><buffer><expr> .     defx#do_action('toggle_ignored_files')     " 显示隐藏文件
   nnoremap <silent><buffer><expr> <C-r>  defx#do_action('redraw')
+	nnoremap <silent><buffer><expr> N
+	  \ defx#do_action('new_file')
 endfunction
 
 function! s:defx_toggle_tree() abort
@@ -30,17 +32,11 @@ function! s:defx_toggle_tree() abort
     return defx#do_action('multi', ['drop'])
 endfunction
 
-"call defx#custom#column('icon', {
-"      \ 'directory_icon': '',
-"      \ 'opened_icon': '',
-"      \ 'root_icon': ' ',
-"      \ })
-
 call defx#custom#column('icon', {
-      \ 'directory_icon': ' ',
-      \ 'opened_icon': ' ',
-      \ 'root_icon': ' ',
-      \ })
+      \ 'directory_icon': ' ',
+      \ 'opened_icon': ' ',
+      \ 'root_icon': ' ',
+			\ })
 
 call defx#custom#column('git', 'indicators', {
 			\ 'Modified'  : 'M',

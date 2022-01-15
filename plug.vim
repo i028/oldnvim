@@ -26,7 +26,7 @@ Plug 'kristijanhusak/defx-icons'
 Plug 't9md/vim-choosewin'
 
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
-
+Plug 'scrooloose/nerdtree'
 Plug 'luochen1990/rainbow'
 
 " 注释

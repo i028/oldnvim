@@ -12,6 +12,7 @@ source ~/.config/nvim/plug/defxrc.vim
 source ~/.config/nvim/plug/nvim-treesitter.vim
 source ~/.config/nvim/plug/rainbow.vim
 source ~/.config/nvim/plug/kommentary.vim
+"source ~/.config/nvim/plug/defx-icons.vim
 source ~/.config/nvim/plug/defxrc.vim
 
 source ~/.config/nvim/plug/vim-choosewin.vim
