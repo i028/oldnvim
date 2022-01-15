@@ -2,7 +2,7 @@ local util = {}
 local material = require('material.theme')
 local config = require('material.config').options
 
--- Go trough the table and highlight the group with the color values 
+-- Go trough the table and highlight the group with the color values
 util.highlight = function (group, color)
     local style = color.style and "gui=" .. color.style or "gui=NONE"
     local fg = color.fg and "guifg=" .. color.fg or "guifg=NONE"

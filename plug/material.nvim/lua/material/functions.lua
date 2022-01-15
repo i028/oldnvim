@@ -16,7 +16,7 @@ local set_lualine = function ()
 	end
 end
 
--- Change_style takes a style name as a parameter and switches to that style 
+-- Change_style takes a style name as a parameter and switches to that style
 local change_style = function (style)
 	set_lualine()
 	vim.g.material_style = style
