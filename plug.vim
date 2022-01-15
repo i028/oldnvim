@@ -22,7 +22,7 @@ Plug 'kevinhwang91/rnvimr'
 
 " defx 文件管理
 Plug 'shougo/defx.nvim'
-Plug 'C-oss/defx-icons'
+"Plug 'C-oss/defx-icons'
 Plug 't9md/vim-choosewin'
 
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}

@@ -36,6 +36,7 @@ call defx#custom#column('icon', {
       \ 'directory_icon': ' ',
       \ 'opened_icon': ' ',
       \ 'root_icon': ' ',
+			\ 'vim': ' '
 			\ })
 
 call defx#custom#column('git', 'indicators', {
