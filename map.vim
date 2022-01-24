@@ -1,7 +1,7 @@
 "================
 "====  Nvim  ====
 "================
-" 试 imya 
+" 
 
 " make Y to copy till the end of the line
 nnoremap Y y$

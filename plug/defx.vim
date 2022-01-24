@@ -33,10 +33,9 @@ function! s:defx_toggle_tree() abort
 endfunction
 
 call defx#custom#column('icon', {
-      \ 'directory_icon': ' ',
-      \ 'opened_icon': ' ',
-      \ 'root_icon': ' ',
-			\ 'vim': ' '
+      \ 'directory_icon': '',
+      \ 'opened_icon': '',
+      \ 'root_icon': '',
 			\ })
 
 call defx#custom#column('git', 'indicators', {
@@ -51,7 +50,7 @@ call defx#custom#column('git', 'indicators', {
   		\ })
 
 " 增加图标的宽度，来解决图标 与文件名重叠的问题
-"let g:defx_icons_column_length = 2
+let g:defx_icons_column_length = 2
 
 "window选择器
 " if you want to use overlay feature
