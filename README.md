@@ -1,5 +1,10 @@
 # Nvim
 
+vim-plug
+
+''' sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+
 1. 先安装 python2 python3 nodejs npm pynvim xclip
 
 2. 字体 nerd-fonts
