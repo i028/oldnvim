@@ -3,15 +3,19 @@
 "
 call plug#begin('~/.config/nvim/plug')
 
-" Status
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
-Plug 'ryanoasis/vim-devicons'
+" Status Line
+"Plug 'vim-airline/vim-airline'
+"Plug 'vim-airline/vim-airline-themes'
+"Plug 'ryanoasis/vim-devicons'
+
+Plug 'c-oss/lualine.nvim'
+" If you want to have icons in your statusline choose one of these
+Plug 'kyazdani42/nvim-web-devicons'
 
 Plug 'jiangmiao/auto-pairs'
 
 " 主题
-Plug 'marko-cerovac/material.nvim'
+Plug 'c-oss/material.nvim'
 Plug 'sainnhe/gruvbox-material'
 Plug 'sainnhe/edge'
 "Plug 'sainnhe/everforest'
@@ -21,7 +25,7 @@ Plug 'sainnhe/edge'
 Plug 'kevinhwang91/rnvimr'
 
 " defx 文件管理
-Plug 'C-oss/defx-icons'
+Plug 'c-oss/defx-icons'
 Plug 'shougo/defx.nvim'
 Plug 't9md/vim-choosewin'
 
@@ -39,7 +43,13 @@ call plug#end()
 "=== 插件配置 ===
 
 " Vim-airline Status
-source ~/.config/nvim/plug/vim-airline.vim
+"source ~/.config/nvim/plug/vim-airline.vim
+
+" lualine.nvim status
+source ~/.config/nvim/plug/lualine.vim
+
+" nvim-web-devicons
+source ~/.config/nvim/plug/nvim-web-devicons.vim
 
 " Rnvimr is a NeoVim plugin that allows you to use Ranger in a floating window.
 source ~/.config/nvim/plug/rnvimr.vim
@@ -72,7 +82,8 @@ source ~/.config/nvim/plug/material.nvim.vim
 
 
 "=== 启用主题 ===
-:colorscheme edge
+":colorscheme edge
+colorscheme material
 
 
 
