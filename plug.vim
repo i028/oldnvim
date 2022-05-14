@@ -8,6 +8,9 @@ call plug#begin('~/.config/nvim/plug')
 "Plug 'vim-airline/vim-airline-themes'
 "Plug 'ryanoasis/vim-devicons'
 
+Plug 'glepnir/dashboard-nvim'
+Plug 'junegunn/fzf'
+
 Plug 'c-oss/lualine.nvim'
 " If you want to have icons in your statusline choose one of these
 Plug 'kyazdani42/nvim-web-devicons'
@@ -41,6 +44,8 @@ call plug#end()
 
 
 "=== 插件配置 ===
+
+source ~/.config/nvim/plug/fzf.vim
 
 " Vim-airline Status
 "source ~/.config/nvim/plug/vim-airline.vim
