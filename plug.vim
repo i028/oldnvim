@@ -32,13 +32,11 @@ Plug 'c-oss/defx-icons'
 Plug 'shougo/defx.nvim'
 Plug 't9md/vim-choosewin'
 
-Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'scrooloose/nerdtree'
 Plug 'luochen1990/rainbow'
 
 " 注释
 Plug 'b3nj5m1n/kommentary'
-Plug 'JoosepAlviste/nvim-ts-context-commentstring'
 
 call plug#end()
 
@@ -63,7 +61,6 @@ source ~/.config/nvim/plug/rnvimr.vim
 source ~/.config/nvim/plug/defx.vim
 source ~/.config/nvim/plug/defx-icons.vim
 
-source ~/.config/nvim/plug/nvim-treesitter.vim
 source ~/.config/nvim/plug/rainbow.vim
 source ~/.config/nvim/plug/kommentary.vim
 
